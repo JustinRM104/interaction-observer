@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 16px;
+    display: block;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.actief {
+    border-bottom: 3px solid red;
+    transition: 0.2s;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    justify-content: space-around;
+    overflow: hidden;
+    position: fixed;
+    margin: 0;
+    display: flex;
+    width: 100vw;
+}
+
+section * {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+section h2 {
+    margin-top: 40vh;
+}
+
+#deel1 {
+    background: rgb(187, 36, 74);
+    height: 150vh;
+  }
+  
+#deel2 {
+    background: rgb(133, 209, 63);
+    height: 150vh;
+}
+
+#deel3 {
+    background: rgb(44, 195, 201);
+    height: 150vh;
+}
+
+#deel4 {
+    background: rgb(228, 224, 18);
+    height: 150vh;
+}
